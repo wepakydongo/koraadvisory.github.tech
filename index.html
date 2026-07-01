@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kora Advisory | Accompagnement, Conseil et Structuration Co-création</title>
+    <meta name="description" content="Kora Advisory accompagne les organisations et les écosystèmes culturels dans leur structuration, leur développement stratégique et leur positionnement international.">
+    
+    <!-- Balises SEO Fondamentales -->
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Kora Advisory">
+    <link rel="canonical" href="https://koraadvisory.co/">
+    <link rel="alternate" hreflang="fr" href="https://koraadvisory.co/">
+    <link rel="alternate" hreflang="en" href="https://koraadvisory.co/en/">
+    
+    <!-- Police Artistique Élégante pour les Titres -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- Données structurées JSON-LD (Conservées et validées) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Kora Advisory",
+      "url": "https://koraadvisory.co",
+      "logo": "https://koraadvisory.co/Kora logo advisory.png",
+      "description": "Structuration, stratégie et internationalisation culturelle pour organisations et écosystèmes créatifs.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Ouagadougou",
+        "addressCountry": "Burkina Faso"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "contact@koraadvisory.co",
+        "contactType": "customer support"
+      }
+    }
+    </script>
+
+    <!-- Fichier CSS Externe -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="https://koraadvisory.co/" class="logo-container" title="Kora Advisory - Accueil">
+            <img src="Kora logo advisory.png" alt="Logo officiel Kora Advisory Conseil Culturel" class="logo-icon">
+            <div class="logo-text">
+                <span class="brand-name">KORA</span>
+                <span class="brand-sub">ADVISORY</span>
+            </div>
+        </a>
+        
+        <!-- Bouton Menu pour les mobiles -->
+        <button class="menu-toggle" id="menu-toggle" aria-label="Ouvrir le menu de navigation">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+
+        <nav class="nav" id="nav-menu" aria-label="Navigation principale">
+            <a href="#about" id="nav-about">À propos</a>
+            <a href="#positioning" id="nav-pos">Positionnement</a>
+            <a href="#services" id="nav-serv">Services</a>
+            <a href="#approach" id="nav-app">Approche</a>
+            <a href="#vision" id="nav-vis">Vision</a>
+            <a href="#contact" id="nav-cont">Contact</a>
+        </nav>
+        
+        <div class="language-switch">
+            <span id="lang-fr" class="active" onclick="switchLanguage('fr')" role="button" aria-label="Changer la langue en Français">FR</span> | 
+            <span id="lang-en" onclick="switchLanguage('en')" role="button" aria-label="Switch language to English">EN</span>
+        </div>
+    </header>
+
+    <main>
+        <!-- Section Héros (Image de la Kora intro.webp appliquée via CSS) -->
+        <section class="hero" aria-label="Introduction Kora Advisory">
+            <div class="hero-text dynamic-text">
+                <h1 id="hero-title">À l’intersection de la vision organisationnelle<br>et de l’intelligence culturelle</h1>
+                <h2 class="hero-middle" id="hero-sub">Ecrivons la prochaine étape de votre histoire.</h2>
+                <p class="baseline" id="hero-base">Ensemble, transformons les systèmes</p>
+            </div>
+        </section>
+
+        <!-- Section À Propos -->
+        <section id="about" class="about">
+            <div class="section-inner">
+                <h2 class="dynamic-text" id="about-title">À propos</h2>
+                <p class="dynamic-text" id="about-p1">Kora Advisory accompagne les organisations, les acteurs culturels et les écosystèmes créatifs dans leur structuration, leur changement d’échelle et leur accès aux opportunités nationales et internationales.</p>
+                <p class="dynamic-text" id="about-p2">Notre approche repose sur la co-création stratégique, la compréhension des dynamiques culturelles et le développement d’écosystèmes durables.</p>
+            </div>
+        </section>
+
+        <!-- Section Positionnement -->
+        <section id="positioning" class="positioning">
+            <div class="section-inner">
+                <h2 class="dynamic-text" id="pos-title">Notre positionnement</h2>
+                <div class="split-layout">
+                    <div class="split-text dynamic-text">
+                        <p id="pos-p1">Nous accompagnons la transformation des écosystèmes économiques, culturels et créatifs dans une logique de co-création stratégique.</p>
+                        <ul>
+                            <li id="pos-li1">Structuration organisationnelle</li>
+                            <li id="pos-li2">Cartographie d’écosystèmes</li>
+                            <li id="pos-li3">Positionnement international</li>
+                            <li id="pos-li4">Développement de partenariats stratégiques</li>
+                        </ul>
+                    </div>
+                    <div class="split-image dynamic-text">
+                        <img src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=1000&auto=format&fit=crop" alt="Intelligence culturelle et structuration d'écosystèmes - Kora Advisory">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Services -->
+        <section id="services" class="services">
+            <div class="section-inner">
+                <h2 class="dynamic-text" id="serv-title">Services</h2>
+                <div class="service-grid">
+                    <article class="service dynamic-text">
+                        <h3 id="serv-h1">Structuration Organisationnelle</h3>
+                        <p id="serv-p1">Clarification de vision, structuration interne et mise en place de modèles durables.</p>
+                    </article>
+                    <article class="service dynamic-text">
+                        <h3 id="serv-h2">Industries Culturelles</h3>
+                        <p id="serv-p2">Conception de stratégies, modèles de financement et dispositifs d’internationalisation.</p>
+                    </article>
+                    <article class="service dynamic-text">
+                        <h3 id="serv-h3">Partenariats Stratégiques</h3>
+                        <p id="serv-p3">Développement de collaborations internationales et intersectorielles créatrices d’impact.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Approche -->
+        <section id="approach" class="approach">
+            <div class="section-inner">
+                <h2 class="dynamic-text" id="app-title">Approche & Méthodologie</h2>
+                <p class="dynamic-text" id="app-p1">Notre travail repose sur une approche structurée combinant analyse, structuration stratégique et connexion aux opportunités internationales.</p>
+                <div class="approach-grid">
+                    <div class="approach-step dynamic-text">
+                        <h3 id="app-step-h1">Analyse</h3>
+                        <p id="app-step-p1">Compréhension approfondie des dynamiques organisationnelles, culturelles et territoriales.</p>
+                    </div>
+                    <div class="approach-step dynamic-text">
+                        <h3 id="app-step-h2">Structuration</h3>
+                        <p id="app-step-p1_2">Clarification de vision et mise en place de cadres opérationnels durables.</p>
+                    </div>
+                    <div class="approach-step dynamic-text">
+                        <h3 id="app-step-h3">Connexion</h3>
+                        <p id="app-step-p3">Identification d’opportunités stratégiques et développement de partenariats internationaux.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Mantra -->
+        <section class="mantra-section">
+            <div class="mantra dynamic-text">
+                <h2 id="mantra-text">Structurer. Relier. Co-créer.<br>Faire émerger de nouvelles opportunités.</h2>
+            </div>
+        </section>
+
+        <!-- Section Vision Internationale -->
+        <section id="vision" class="international-section">
+            <div class="section-inner">
+                <h2 class="dynamic-text" id="vis-title">Une vision internationale</h2>
+                <p class="dynamic-text" id="vis-p1">Nous concevons des cadres d’internationalisation permettant aux organisations de se positionner à l’échelle globale et d’identifier des opportunités pertinentes dans des environnements internationaux.</p>
+            </div>
+        </section>
+
+        <!-- Section Contact -->
+        <section id="contact" class="contact">
+            <div class="section-inner">
+                <h2 class="dynamic-text" id="cont-title">Co-créons votre essentiel.</h2>
+                <p class="dynamic-text" id="cont-p1">Initiative culturelle, transformation organisationnelle ou stratégie internationale : construisons ensemble un impact durable.</p>
+
+                <div class="contact-container dynamic-text">
+                    <form action="mailto:contact@koraadvisory.co" method="post" enctype="text/plain" aria-label="Formulaire de contact">
+                        <input type="text" id="form-name" name="name" placeholder="Votre nom / Organisation" class="form-input" required aria-required="true">
+                        <input type="email" id="form-email" name="email" placeholder="Votre email" class="form-input" required aria-required="true">
+                        <textarea id="form-msg" name="message" rows="5" placeholder="Parlez-nous de votre projet..." class="form-input" required aria-required="true"></textarea>
+                        <button type="submit" id="form-btn" class="cta-button">Engager la discussion</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-logo-container">
+            <a href="https://koraadvisory.co/" class="logo-container" title="Kora Advisory - Accueil">
+                <img src="Kora logo advisory.png" alt="Logo pied de page Kora Advisory" class="logo-icon">
+                <div class="logo-text">
+                    <span class="brand-name">KORA</span>
+                    <span class="brand-sub">ADVISORY</span>
+                </div>
+            </a>
+        </div>
+        <p class="footer-mission" id="foot-mission">Kora Advisory accompagne les organisations et les écosystèmes créatifs dans leur structuration, leur développement stratégique et leur positionnement international.</p>
+        <div class="footer-info">
+            <div><a href="mailto:contact@koraadvisory.co" title="Nous écrire par email">contact@koraadvisory.co</a></div>
+            <div>Ouagadougou, Burkina Faso</div>
+        </div>
+        <div class="footer-copy">
+            © 2026 — Kora Advisory. <span id="foot-copy">Tous droits réservés.</span>
+        </div>
+    </footer>
+
+    <!-- Scripts JavaScript Externes -->
+    <script src="translations.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
