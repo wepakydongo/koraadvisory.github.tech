@@ -71,7 +71,7 @@ section:nth-of-type(even) { background-color: var(--bg-secondary); }
 /* Section Héros Artistique avec l'image intro.webp */
 .hero { 
   height: calc(100vh - var(--header-height)); 
-  background: linear-gradient(to right, rgba(11,11,11,0.95) 35%, rgba(11,11,11,0.5) 70%, rgba(11,11,11,0.2) 100%), url('../kora.png'); 
+  background: linear-gradient(to right, rgba(11,11,11,0.95) 35%, rgba(11,11,11,0.5) 70%, rgba(11,11,11,0.2) 100%), url('kora.png'); 
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right 5% center;
@@ -249,7 +249,7 @@ section:nth-of-type(even) { background-color: var(--bg-secondary); }
   .menu-toggle.active .bar:nth-child(3) { transform: translateY(-9px) rotate(-45deg); }
   
   .hero {
-    background: linear-gradient(rgba(11,11,11,0.85), rgba(11,11,11,0.95)), url('../kora.png');
+    background: linear-gradient(rgba(11,11,11,0.85), rgba(11,11,11,0.95)), url('kora.png');
     background-position: center center; 
     background-size: cover; 
     justify-content: center;
